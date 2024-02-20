@@ -1,7 +1,7 @@
 #include <stdio.h>
-/*                                                                                                                                                                               
-*GRGR                                                                                                                                                                            
-*HTHT                                                                                                                                                                            
+/*
+*ASDASD
+*ASDASDAS
 */
 int main(void)/*MAIN FUNC*/
 {
