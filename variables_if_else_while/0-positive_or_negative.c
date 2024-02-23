@@ -5,7 +5,7 @@
 /**
 * main - Entry poin
 * Description: 'the program's description'
-* parameter : describe the parameter 
+* parame
 * Return: Always 0 (Success)
 */
 int main(void)
