@@ -7,17 +7,17 @@
 */
 int main(void)
 {
-char letter = 'a';
-while (letter <= 'z')
+char j = 'a';
+while (j <= 'z')
 {
-putchar(letter);
-letter++;
+putchar(j);
+j++;
 }
-letter = 'A';
-while (letter <= 'Z')
+j = 'A';
+while (j <= 'Z')
 {
-putchar(letter);
-letter++;
+putchar(j);
+j++;
 }
 putchar('\n');
 return (0);
