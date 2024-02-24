@@ -15,9 +15,9 @@
  */
 void print_alphabet_x10(void)
 {
-int i;
-i = 48;
-while (i <= 58)
+int j;
+j = 48;
+while (j <= 58)
 {
 char i = 'a';
 while (i <= 'z')
@@ -27,5 +27,5 @@ i++;
 }
 _putchar('\n');
 }
-i++;
+j++;
 }
