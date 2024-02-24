@@ -8,7 +8,6 @@
 /**
  * print_to_98 - dasdasdjaslkjdlajskldjalk
  * @a: - asdfsdfasdfasfdsfdsf
- * @b: - asdasdasjdhakshddasdasd
  * Return: - asdasdasdasdasdasdasdasd
  */
 void print_to_98(int a)
