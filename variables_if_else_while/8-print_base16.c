@@ -12,13 +12,13 @@ int main(void)
 int c;
 char x;
 c = '0';
-while (c<= '9')
+while (c <= '9')
 {
 putchar(c);
 c++;
 }
 x = 'a';
-while (x<= 'f')
+while (x <= 'f')
 {
 putchar(x);
 x++;
