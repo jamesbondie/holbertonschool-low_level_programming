@@ -9,7 +9,7 @@
  * add - dasdasdjaslkjdlajskldjalk
  * @a: - asdfsdfasdfasfdsfdsf
  * @b: - asdasdasjdhakshddasdasd
- * Return - asdasdasdasdasdasdasdasd
+ * Return: - asdasdasdasdasdasdasdasd
  */
 int add(int a, int b)
 {
