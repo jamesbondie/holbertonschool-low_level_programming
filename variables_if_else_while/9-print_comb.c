@@ -10,14 +10,17 @@
 int main(void)
 {
 int c;
-c = '0';
-while (c<= '8')
+c = 48;
+while (c < 58)
 {
 putchar(c);
-c++;
+if (c != 57)
+{
 putchar(',');
 putchar(' ');
 }
-putchar('9');
+c++;
+}
+putchar('\n');
 return (0);
 }
