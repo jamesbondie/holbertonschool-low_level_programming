@@ -14,7 +14,7 @@
  * print_alphabet is a good function ahsdbjasdjashjdajskhdka  aksjhdak
  * print_alphabet_x10 is a good function
  */
-int _islower(int c);
+int _islower(int c)
 {
 int j;
 r = _islower('c');
