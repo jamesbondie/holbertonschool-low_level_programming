@@ -6,7 +6,7 @@
 #include "main.h"
 
 /**
- * _isalpha - dasdasdasdasdeasdcksa 
+ * _isalpha - dasdasdasdasdeasd
  * @c: asdasdasdasdasdasdasdadsdasd
  *
  * Return: dasdasdasdrwiseasdasdasdas
