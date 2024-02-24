@@ -17,7 +17,7 @@ void print_alphabet_x10(void)
 {
 int j;
 j = 48;
-while (j <= 58)
+while (j <= 57)
 {
 char i = 'a';
 while (i <= 'z')
