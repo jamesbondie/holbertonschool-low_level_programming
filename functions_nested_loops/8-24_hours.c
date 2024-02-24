@@ -6,9 +6,7 @@
 #include "main.h"
 
 /**
- * jack_bauer - dasdasdasdasdeasd
- * @c: asdkaskdjaslkjdlkasjldkaj
- * @o: sadasjdlkasjdklajskldjalk
+ * jack_bauer - dasdasdjaslkjdlajskldjalk
  * Return: dasdasdasdrwiseasdasdasdas
  */
 void jack_bauer(void)
