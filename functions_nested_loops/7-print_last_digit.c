@@ -11,7 +11,7 @@
  *
  * Return: dasdasdasdrwiseasdasdasdas
  */
-int print_last_digit(int j);
+int print_last_digit(int j)
 {
 int k = j % 10;
 if (k < 0)
