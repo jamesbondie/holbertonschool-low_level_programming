@@ -9,6 +9,7 @@
 
 /**
  * _islower - bery good my func
+ * @c: chareckter cheking solver
  * print_alphabet_x10 - is nice one really good one@L asd:w
  * _putchar - very high conversation topic
  * print_alphabet is a good function ahsdbjasdjashjdajskhdka  aksjhdak
