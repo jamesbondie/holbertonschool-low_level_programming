@@ -7,9 +7,9 @@
 
 /**
  * add - dasdasdjaslkjdlajskldjalk
- * Return: dasdasdasdrwiseasdasdasdas
- * @a - asdfsdfasdfasfdsfdsf
- * @b - asdasdasjdhakshd
+ * @a: - asdfsdfasdfasfdsfdsf
+ * @b: - asdasdasjdhakshddasdasd
+ * Return - asdasdasdasdasdasdasdasd
  */
 int add(int a, int b)
 {
