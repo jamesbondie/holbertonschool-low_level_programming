@@ -8,6 +8,7 @@
 #include "main.h"
 
 /**
+ * _putchar - very high conversation topic
  * print_alphabet is a good function ahsdbjasdjashjdajskhdka  aksjhdak
  * print_alphabet is a good function
  */
