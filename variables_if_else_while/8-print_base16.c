@@ -10,13 +10,13 @@
 int main(void)
 {
 int c;
+char x;
 c = '0';
 while (c<= '9')
 {
 putchar(c);
 c++;
 }
-char x;
 x = 'a';
 while (x<= 'f')
 {
