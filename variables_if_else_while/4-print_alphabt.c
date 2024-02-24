@@ -14,7 +14,7 @@ while (c <= 'z')
 {
 if ( c == 'q' || c =='e')
 {
-c=c+2;
+c++;
 }
 else
 {
