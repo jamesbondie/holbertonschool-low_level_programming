@@ -7,15 +7,14 @@
 
 /**
  * print_last_digit - dasdasdasdasdeasd
- * @k: asdasdasdasdasdasdasdadsdasd
- *
+ * @j: sadasjdlkasjdklajskldjalk
  * Return: dasdasdasdrwiseasdasdasdas
  */
 int print_last_digit(int j)
 {
-int k = j % 10;
-if (k < 0)
-k = -k;
-_putchar(k + '0');
-return (k);
+int j = j % 10;
+if (j < 0)
+j = -j;
+_putchar(j + '0');
+return (j);
 }
