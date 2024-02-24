@@ -6,11 +6,9 @@
 #include "main.h"
 
 /**
- * jack_bauer - dasdasdjaslkjdlajskldjalk
+ * times_table - dasdasdjaslkjdlajskldjalk
  * Return: dasdasdasdrwiseasdasdasdas
  * times_table - asdfsdfasdfasfdsfdsf
- *
- * Return: Nothing.
  */
 void times_table(void)
 {
