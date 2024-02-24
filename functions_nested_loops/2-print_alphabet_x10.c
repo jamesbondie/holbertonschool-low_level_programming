@@ -15,7 +15,8 @@
  */
 void print_alphabet_x10(void)
 {
-i = 48
+int i;
+i = 48;
 while (i <= 58)
 {
 char i = 'a';
