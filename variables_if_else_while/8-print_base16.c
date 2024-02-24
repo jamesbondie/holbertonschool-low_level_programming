@@ -16,7 +16,8 @@ while (c<= '9')
 putchar(c);
 c++;
 }
-char x = 'a';
+char x;
+x = 'a';
 while (x<= 'f')
 {
 putchar(x);
