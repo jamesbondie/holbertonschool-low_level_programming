@@ -5,13 +5,13 @@
  * * Return: Always 0 (Success)
  */
 #include "main.h"
-/**
+/*
  * _isupper - super function really
  * @c: aksdjlaksdjlkasd
  * Return: kasljdlkasjdkalsjdklasjdlk
  */
 int _isupper(int c)
-/**
+/*
  * _isupper - super function really
  * @c: aksdjlaksdjlkasd
  * Return: kasljdlkasjdkalsjdklasjdlk
