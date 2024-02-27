@@ -25,5 +25,4 @@ _putchar('\\');
 _putchar('\n');
 x++;
 }
-_putchar('\n');
 }
