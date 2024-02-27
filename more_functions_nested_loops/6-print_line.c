@@ -21,5 +21,4 @@ _putchar(95);
 i++;
 }
 _putchar('a');
-return (0);
 }
