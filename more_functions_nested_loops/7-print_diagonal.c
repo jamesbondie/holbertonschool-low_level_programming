@@ -6,19 +6,25 @@
  */
 #include "main.h"
 /**
- * print_line - dasdasdasdasdeasd
+ * print_diagonal - dasdasdasdasdeasd
  * @n: asdasdasdasdasdasdasdadsdasd
  *  adlskdjalksdjalksjdlaksjdlkas
  * Return: dasdasdasdrwiseasdasdasdas
  */
 void print_diagonal(int n)
 {
-int i;
-i = 0;
-while (i < n && n > 0)
-{
-_putchar(92);
+int x = 0;
+int i = 0;
+while (x < n) {
+while (i <= x) {
+_putchar(' ');
 i++;
 }
+i = 0;
+_putchar('\\');
 _putchar('\n');
+x++;
+}
+putchar('\n');
+return 0;
 }
