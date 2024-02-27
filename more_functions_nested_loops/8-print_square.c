@@ -22,7 +22,7 @@ while (i < size) {
 _putchar(35);
 i++;
 }
-i=0;
+i = 0;
 _putchar('\n');
 x++;
 }
