@@ -20,5 +20,5 @@ while (i <= n && n > 0)
 _putchar(95);
 i++;
 }
-_putchar('a');
+_putchar('\n');
 }
