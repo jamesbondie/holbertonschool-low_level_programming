@@ -5,21 +5,27 @@
  * * Return: Always 0 (Success)
 */
 #include <stdio.h>
-
-int main() {
-    int i = 1;
-    while (i <= 100) {
-        if (i % 3 == 0 && i % 5 == 0) {
-            printf("FizzBuzz ");
-        } else if (i % 3 == 0) {
-            printf("Fizz ");
-        } else if (i % 5 == 0) {
-            printf("Buzz ");
-        } else {
-            printf("%d ", i);
-        }
-        i++;
-    }
-    return 0;
+int main(void)
+{
+int i = 1;
+while (i <= 100) {
+int d = 0;       
+if (i % 3 == 0) {
+printf("Fizz");
+d = 1;
+}     
+if (i % 5 == 0)
+{
+printf("Buzz");
+d = 1;
+}     
+if (!d) {
+printf("%d", i);
 }
-
+if (i != 100) {
+printf(" ");
+}      
+i++;
+}
+return (0);
+}
