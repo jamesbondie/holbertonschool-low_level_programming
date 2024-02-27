@@ -30,6 +30,6 @@ _putchar('\n');
 }
 else
 {
-_putchar('\n')
+_putchar('\n');
 }
 }
