@@ -14,10 +14,11 @@
 void more_numbers(void)
 {
 int i;
-i=0;
+char a;
 int j;
+i=0;
 j =0;
-char a[] = "01234567891011121314";
+a[] = "01234567891011121314";
 while (i <= 9)
 {
 while (j <= 19)
