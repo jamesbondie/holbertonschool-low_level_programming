@@ -18,7 +18,7 @@ int i = 0;
 if (size > 0)
 {
 while (x < size) {
-while (i <= size) {
+while (i < size) {
 _putchar(35);
 i++;
 }
