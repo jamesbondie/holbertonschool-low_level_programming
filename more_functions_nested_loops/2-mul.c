@@ -7,8 +7,8 @@
 #include "main.h"
 /**
  * mul - dasdasdasdasdeasd
- * @c: asdasdasdasdasdasdasdadsdasd
- *
+ * @a: asdasdasdasdasdasdasdadsdasd
+ * @b: adlskdjalksdjalksjdlaksjdlkas
  * Return: dasdasdasdrwiseasdasdasdas
  */
 int mul(int a, int b)
