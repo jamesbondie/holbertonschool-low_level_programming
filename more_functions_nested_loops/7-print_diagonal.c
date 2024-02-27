@@ -17,8 +17,10 @@ int x = 0;
 int i = 0;
 if (n > 0)
 {
-while (x < n) {
-while (i < x) {
+while (x < n)
+{
+while (i < x)
+{
 i++;
 _putchar(' ');
 }
