@@ -17,6 +17,7 @@ int a;
 a = 48;
 while (a < 57)
 {
-putchar(a);
+_putchar(a);
 a++;
+}
 }
