@@ -17,8 +17,8 @@ int x = 0;
 int i = 0;
 while (x < n) {
 while (i <= x) {
-_putchar(' ');
 i++;
+_putchar(' ');
 }
 i = 0;
 _putchar('\\');
