@@ -20,4 +20,5 @@ while (a <= 57)
 _putchar(a);
 a++;
 }
+_putchar('\n');
 }
