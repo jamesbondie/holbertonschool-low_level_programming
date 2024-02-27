@@ -1,10 +1,7 @@
 /**
- *
  * main gh blalalabdlabslkdnalk
- *
  */
 #include "main.h"
-
 /**
  * _isupper - super function really
  * @c: aksdjlaksdjlkasd
