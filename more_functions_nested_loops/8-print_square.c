@@ -26,7 +26,6 @@ i=0;
 _putchar('\n');
 x++;
 }
-_putchar('\n');
 }
 else
 {
