@@ -7,8 +7,8 @@
 #include "main.h"
 /**
  * print_numbers - dasdasdasdasdeasd
- * @a: asdasdasdasdasdasdasdadsdasd
- * @b: adlskdjalksdjalksjdlaksjdlkas
+ * asdasdasdasdasdasdasdadsdasd
+ *  adlskdjalksdjalksjdlaksjdlkas
  * Return: dasdasdasdrwiseasdasdasdas
  */
 void print_numbers(void)
