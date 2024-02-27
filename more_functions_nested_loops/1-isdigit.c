@@ -6,17 +6,12 @@
  */
 #include "main.h"
 /**
- * _isupper - dasdasdasdasdeasd
+ * _isdigit - dasdasdasdasdeasd
  * @c: asdasdasdasdasdasdasdadsdasd
  *
  * Return: dasdasdasdrwiseasdasdasdas
  */
 int _isdigit(int c)
-/*
- * _isdigit - super function really
- * @c: aksdjlaksdjlkasd
- * Return: kasljdlkasjdkalsjdklasjdlk
- */
 {
 if (c >= '0' && c <= '9')
 {
