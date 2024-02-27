@@ -11,7 +11,7 @@
  * @b: adlskdjalksdjalksjdlaksjdlkas
  * Return: dasdasdasdrwiseasdasdasdas
  */
-void print_numbers(void);
+void print_numbers(void)
 {
 int a;
 a = 48;
