@@ -6,7 +6,7 @@
 #include "main.h"
 
 /**
- * isupper - super function really
+ * _isupper - super function really
  * @c: aksdjlaksdjlkasd
  * Return: kasljdlkasjdkalsjdklasjdlk
  */
