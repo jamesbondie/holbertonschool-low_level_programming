@@ -5,7 +5,7 @@
 *@k: asdasdasdasdasdasdasd
 * @j: asdasdaksdjalksd
 * @d: askdajslkdjalksjdlaksjd
-* @z: alskdjklfajlkdjf
+* skdjklfajlkdjf
 * @y: akljsdflkajsdlkfjaskdlfaksjd
 * @x: aslkdjflkjoqjoijowijofsjd
 *
@@ -16,26 +16,25 @@ void print_triangle(int size)
 int k = 0;
 int j = 0;
 int d = 0;
-int z = 0;
 int y = 1;
 int x = size;
 while(d < size)
 {
 while(j < x)
 {
-putchar('a');
+_putchar('a');
 j++;
 }
 x--;
 j = 0;
 while (k < y)
 {
-putchar('b');
+_putchar('b');
 k++;
 }
 y++;
 k = 0;
-putchar('\n');
+_putchar('\n');
 d++;
 }
 }
