@@ -1,7 +1,7 @@
 #include "main.h"
 /**
 * print_triangle - askdljaskldjalksjlqkjwldkjlasd
-* asdasdasdasdasdasdasd
+* @size: asdasdasdasdasdasdasd
 *  asdasdaksdjalksd
 *  askdajslkdjalksjdlaksjd
 * skdjklfajlkdjf
