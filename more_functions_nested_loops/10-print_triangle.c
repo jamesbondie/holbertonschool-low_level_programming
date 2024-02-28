@@ -20,9 +20,9 @@ int y = 1;
 int x = size;
 if (size > 0)
 {
-while(d < size)
+while (d < size)
 {
-while(j < x - 1)
+while (j < x - 1)
 {
 j++;
 _putchar(' ');
