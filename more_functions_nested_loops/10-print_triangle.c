@@ -1,13 +1,12 @@
 #include "main.h"
 /**
-*main - program that prints either number
-*or fizz or buzz or fizzBuzz
-*@k: asdasdasdasdasdasdasd
-* @j: asdasdaksdjalksd
-* @d: askdajslkdjalksjdlaksjd
+* print_triangle - askdljaskldjalksjlqkjwldkjlasd
+* asdasdasdasdasdasdasd
+*  asdasdaksdjalksd
+*  askdajslkdjalksjdlaksjd
 * skdjklfajlkdjf
-* @y: akljsdflkajsdlkfjaskdlfaksjd
-* @x: aslkdjflkjoqjoijowijofsjd
+*  akljsdflkajsdlkfjaskdlfaksjd
+*  aslkdjflkjoqjoijowijofsjd
 *
 *Return: returns 0
 */
