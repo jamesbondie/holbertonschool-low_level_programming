@@ -18,6 +18,8 @@ int j = 0;
 int d = 0;
 int y = 1;
 int x = size;
+if (size > 0)
+{
 while(d < size)
 {
 while(j < x - 1)
@@ -36,5 +38,10 @@ y++;
 k = 0;
 _putchar('\n');
 d++;
+}
+}
+else
+{
+_putchar('\n');
 }
 }
