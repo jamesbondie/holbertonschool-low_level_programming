@@ -20,7 +20,7 @@ int y = 1;
 int x = size;
 while(d < size)
 {
-while(j < x)
+while(j < x - 1)
 {
 j++;
 _putchar(' ');
