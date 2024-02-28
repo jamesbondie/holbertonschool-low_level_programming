@@ -37,5 +37,4 @@ k = 0;
 _putchar('\n');
 d++;
 }
-_putchar('\n');
 }
