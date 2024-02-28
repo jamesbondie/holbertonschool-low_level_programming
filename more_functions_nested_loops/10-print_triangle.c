@@ -22,14 +22,14 @@ while(d < size)
 {
 while(j < x)
 {
-_putchar('a');
 j++;
+_putchar(' ');
 }
 x--;
 j = 0;
 while (k < y)
 {
-_putchar('b');
+_putchar(35);
 k++;
 }
 y++;
