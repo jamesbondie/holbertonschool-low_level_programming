@@ -12,5 +12,5 @@ while (src[i])
 	dest[i] = src[i];
 	i++;
 }
-return (0);
+return (dest);
 }
