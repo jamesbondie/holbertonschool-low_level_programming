@@ -17,7 +17,7 @@ dest[lens] = src[lens];
 }
 else
 {
-dest[lens + 1] = '\0';
+dest[lens] = '\0';
 break;
 }
 lens++;
