@@ -14,8 +14,8 @@ while (src[i])
 }
 while (i + 1 > a)
 {
-dest[i] = src[i];
-i++;
+dest[a] = src[a];
+a++;
 }
 return (dest);
 }
