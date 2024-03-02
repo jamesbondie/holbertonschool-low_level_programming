@@ -15,6 +15,7 @@ while (src[i])
 while (i + 1 > a)
 {
 dest[i] = src[i];
+i++;
 }
 return (dest);
 }
