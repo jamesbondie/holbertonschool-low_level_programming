@@ -25,4 +25,5 @@ while (n <= len)
 	_putchar(str[n]);
 	n++;
 }
+_putchar('\n');
 }
