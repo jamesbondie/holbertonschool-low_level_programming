@@ -1,3 +1,5 @@
+#include <stdio.h>
+#include <stdlib.h>
 #include "dog.h"
 /**
  * init_dog - <F12><F12><F12><F11>.
