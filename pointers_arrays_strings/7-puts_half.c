@@ -20,7 +20,7 @@ else
 {
 n = len / 2;
 }
-while (n <= len)
+while (n < len)
 {
 	_putchar(str[n]);
 	n++;
