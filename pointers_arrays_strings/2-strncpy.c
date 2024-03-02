@@ -14,12 +14,13 @@ while (src[lens])
 if (lens < n)
 {
 dest[lens] = src[lens];
+lens++;
 }
 else
 {
 dest[lens] = '\0';
-}
 lens++;
+}
 }
 return (dest);
 }
