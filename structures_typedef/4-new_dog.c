@@ -1,0 +1,33 @@
+#include "dog.h"
+#include <stdio.h>
+
+/**
+ * new_dog - gasdfasdfasdfasdf
+ * @d: asdasdasdasdasdasdasd
+ * @age: asdkjaslkdjaksjdka
+ * @name: asdasdasd
+ * @owner: aksdjalksjflkajskljdalksd
+ */
+dog_t *new_dog(char *name, float age, char *owner)
+{
+dog_t *i;
+i = malloc(sizeof(dog_t));
+if (i == NULL)
+return (NULL);
+if (name == NULL)
+{
+free(i);
+free(owner);
+return (NULL);
+}
+if (owner == NULL)
+{
+free(i);
+free(name);
+return (NULL);
+}
+i->name = name;
+i->age = age;
+i->owner = owner;
+return (i);
+}
