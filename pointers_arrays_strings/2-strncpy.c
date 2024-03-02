@@ -14,7 +14,7 @@ while (src[lens] && lens < n)
 dest[lens] = src[lens];
 lens++;
 }
-if (src[lens] != '\0')
+if (i < n)
 {
 dest[lens] = '\0';
 }
