@@ -17,7 +17,7 @@ len--;
 n = ( len - 1 ) / 2;
 while (n <= len)
 {
-	_putchar(str[a]);
+	_putchar(str[n]);
 	n++;
 }
 _putchar('\n');
