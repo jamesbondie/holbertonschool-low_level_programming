@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * string_toupper- good asdasdasdasda
- * @z: aisjdaisjdalksjdlkasjdkl
- *  askjdkalksjdkaljsdlkaskd
+ * cat_string - good asdasdasdasda
+ * @s: aisjdaisjdalksjdlkasjdkl
+ * Return: askjdkalksjdkaljsdlkaskd
  * Return: alskdaskldaklsdkalsdaks
  * alksjdalksjdlkasjdlkajkl
  */
