@@ -6,9 +6,11 @@
  */
 void rev_string(char *s)
 {
-int i = 0;
-int a = 0;
-char b[500];
+int i;
+int a;
+char b[i];
+i = 0;
+a = 0;
 while (s[i] != '\0')
 {
 i++;
