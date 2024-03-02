@@ -17,6 +17,7 @@ lens++;
 while (lens < n)
 {
 dest[lens] = '\0';
+lens++;
 }
 return (dest);
 }
