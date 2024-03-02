@@ -15,6 +15,7 @@ while (*[len])
 if (*[len] >= 'a' && *[len] <= 'z') {
         *[len] = *[len] - 'a' + 'A';
     }
+len++;
 }
 
 
