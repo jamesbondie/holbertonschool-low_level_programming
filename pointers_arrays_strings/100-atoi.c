@@ -1,30 +1,26 @@
 #include "main.h"
 /**
- * _strcpy - good asdasdasdasda
- * @dest: aisjdaisjdalksjdlkasjdkl
- * @src: askjdkalksjdkaljsdlkaskd
+ * _atoi - good asdasdasdasda
+ * @s: aisjdaisjdalksjdlkasjdkl
+ * askjdkalksjdkaljsdlkaskd
  * Return: alksjdalksjdlkasjdlkajkl
  */
 int _atoi(char *s)
 {
-int len;
-	int i = 0;
-while (s[i])
+int a = 1;
+int n = 0;
+while (*s && (*s < '0' || *s > '9'))
 {
-	len++;
-}
-while (len > i)
+if (*s == '-')
 {
-if (s[i] >= '0' && s[i] <= '9')
+a *= -1;
+s++;
+}
+}
+while (*s && (*s >= '0' && *s <= '9'))
 {
-_putchar(s[i]);
-i++;
+n = n * 10 + (*s - '0');
+s++;
 }
-else
-{
-	return (0);
-}
-
-}
-return (0);
+return a * n;
 }
