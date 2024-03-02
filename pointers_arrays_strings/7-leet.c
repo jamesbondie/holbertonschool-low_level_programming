@@ -6,7 +6,7 @@
  * alskdaskldaklsdkalsdaks
  * alksjdalksjdlkasjdlkajkl
  */
-char *leet(char *)
+char *leet(char *s)
 {
 char *r = s;
 char c[] = { 4, 3, 0, 7, 1 };
