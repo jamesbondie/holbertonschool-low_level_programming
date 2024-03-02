@@ -12,7 +12,6 @@ while (str[len] != '\0')
 {
 	len++;
 }
-len--;
 if (len % 2 != 0)
 {
 n = ( len - 1 ) / 2;
