@@ -15,8 +15,12 @@ if (lens < n)
 {
 dest[lens] = src[lens];
 }
+else
+{
+dest[lens + 1] = '\0';
+break;
+}
 lens++;
 }
-dest[lens + 1] = '\0';
 return (dest);
 }
