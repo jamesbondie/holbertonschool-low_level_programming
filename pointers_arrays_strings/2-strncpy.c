@@ -17,9 +17,6 @@ dest[lens] = src[lens];
 }
 lens++;
 }
-
-
-
-
+dest[lens + 1] = '\0';
 return (dest);
 }
