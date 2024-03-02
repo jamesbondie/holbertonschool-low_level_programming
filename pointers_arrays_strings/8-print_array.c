@@ -8,7 +8,7 @@
 void print_array(int *a, int n)
 {
 int i = 0;
-while (n - 2 >= i)
+while (n > i)
 {
 	printf("%d, ", a[i]);
 	i++;
