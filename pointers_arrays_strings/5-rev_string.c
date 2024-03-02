@@ -12,10 +12,17 @@ while (s[i] != '\0')
 {
 i++;
 }
-while (s[i] != '\0')
+char b[i];
+while (i >= 0)
 {
-s[i - 1] = s[a];
 i--;
 a++;
+b[a -1] = s[i];
+}
+while (a >= 0)
+{
+s[i] = b[i];
+a--;
+i++;
 }
 }
