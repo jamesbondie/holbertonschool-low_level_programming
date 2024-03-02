@@ -13,7 +13,14 @@ while (str[len] != '\0')
 	len++;
 }
 len--;
+if (n % 2 != 0)
+{
 n = ( len - 1 ) / 2;
+}
+else
+{
+n = len / 2;
+}
 while (n <= len)
 {
 	_putchar(str[n]);
