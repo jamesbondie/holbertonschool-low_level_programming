@@ -19,7 +19,7 @@ lens++;
 else
 {
 dest[lens] = '\0';
-lens++;
+break;
 }
 }
 return (dest);
