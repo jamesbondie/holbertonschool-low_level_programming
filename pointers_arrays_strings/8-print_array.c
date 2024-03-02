@@ -11,12 +11,12 @@ int i = 0;
 while (n > i)
 {
 	printf("%d", a[i]);
-	i++;
 	if (i == n - 1)
 	{
 		break;
 	}
 	printf(", ");
+	i++;
 }
 _putchar('\n');
 }
