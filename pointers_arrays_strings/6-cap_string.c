@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * cat_string - good asdasdasdasda
+ * cap_string - good asdasdasdasda
  * @s: aisjdaisjdalksjdlkasjdkl
  * Return: askjdkalksjdkaljsdlkaskd
- * Return: alskdaskldaklsdkalsdaks
+ * alskdaskldaklsdkalsdaks
  * alksjdalksjdlkasjdlkajkl
  */
 char *cap_string(char *s)
