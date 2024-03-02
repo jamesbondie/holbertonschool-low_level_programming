@@ -38,6 +38,6 @@ for (j = 0; j <= owner_len; j++)
 {
 i->owner[j] = owner[j];
 i->age = age;
-return i;
 }
+return i;
 }
