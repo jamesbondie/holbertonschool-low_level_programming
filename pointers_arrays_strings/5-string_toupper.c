@@ -1,9 +1,9 @@
 #include "main.h"
 /**
  * string_toupper- good asdasdasdasda
- * @a: aisjdaisjdalksjdlkasjdkl
- * @n: askjdkalksjdkaljsdlkaskd
- * alskdaskldaklsdkalsdaks
+ * @z: aisjdaisjdalksjdlkasjdkl
+ *  askjdkalksjdkaljsdlkaskd
+ * Return: alskdaskldaklsdkalsdaks
  * alksjdalksjdlkasjdlkajkl
  */
 char *string_toupper(char *z)
