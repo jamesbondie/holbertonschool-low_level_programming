@@ -7,20 +7,25 @@
  */
 int _atoi(char *s)
 {
-int a = 1;
-int n = 0;
-while (*s && (*s < '0' || *s > '9'))
+int x = 1;
+unsigned int y = 0;
+int z = 0;
+for (; *s != '\0'; s++)
 {
 if (*s == '-')
+x *= -1;
+else if (*s >= '0' && *s <= '9')
+break;
+}
+while (*s >= '0' && *s <= '9')
 {
-a *= -1;
+y *= 10;
+y += *s - '0';
 s++;
 }
-}
-while (*s && (*s >= '0' && *s <= '9'))
-{
-n = n * 10 + (*s - '0');
-s++;
-}
-return a * n;
+if (x == -1)
+z = -y;
+else
+z = y;
+return (z);
 }
