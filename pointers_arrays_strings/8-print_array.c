@@ -18,5 +18,5 @@ while (n > i)
 	printf(", ");
 	i++;
 }
-_putchar('\n');
+printf("\n");
 }
