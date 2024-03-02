@@ -19,8 +19,10 @@ return (NULL);
 i = malloc(sizeof(dog_t));
 if (i == NULL)
 return (NULL);
-for (name_len = 0; name[name_len] != '\0'; name_len++);
-for (owner_len = 0; owner[owner_len] != '\0'; owner_len++);
+for (name_len = 0; name[name_len] != '\0'; name_len++)
+	;
+for (owner_len = 0; owner[owner_len] != '\0'; owner_len++)
+	;
 i->name = malloc(name_len + 1);
 i->owner = malloc(owner_len + 1);
 if (i->name == NULL || i->owner == NULL)
