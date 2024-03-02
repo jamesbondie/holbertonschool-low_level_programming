@@ -14,7 +14,7 @@ while (dest[lend])
 {
 	lend++;
 }
-while (src[lens] > n)
+while (src[lens] < n)
 {
 
 dest[lend+lens] = src[lens];
