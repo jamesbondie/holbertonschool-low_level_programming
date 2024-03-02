@@ -9,18 +9,14 @@
 char *_strncpy(char *dest, char *src, int n)
 {
 int lens = 0;
-while (src[lens])
-{
-if (lens < n)
+while (src[lens] && lens < n)
 {
 dest[lens] = src[lens];
 lens++;
 }
-else
+if (src[lens] != '\0')
 {
 dest[lens] = '\0';
-break;
-}
 }
 return (dest);
 }
