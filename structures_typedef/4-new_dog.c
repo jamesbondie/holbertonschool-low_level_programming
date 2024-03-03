@@ -1,7 +1,6 @@
 #include "dog.h"
 #include <stdio.h>
 #include <stdlib.h>
-
 /**
  * new_dog - blabalblablabla
  * @name: jashdkaskdajslkdjlkanameajslkd
@@ -12,34 +11,37 @@
 dog_t *new_dog(char *name, float age, char *owner)
 {
 dog_t *i;
-int name_len, owner_len;
-int j;
+int len1 = 0, len2 = 0;
+int j = 0;
 if (name == NULL || owner == NULL)
-return (NULL);
+return NULL;
 i = malloc(sizeof(dog_t));
 if (i == NULL)
-return (NULL);
-for (name_len = 0; name[name_len] != '\0'; name_len++)
-	;
-for (owner_len = 0; owner[owner_len] != '\0'; owner_len++)
-	;
-i->name = malloc(name_len + 1);
-i->owner = malloc(owner_len + 1);
+return NULL;
+while (name[len1] != '\0')
+len1++;
+while (owner[len2] != '\0')
+len2++;
+i->name = malloc(len1 + 1);
+i->owner = malloc(len2 + 1);
 if (i->name == NULL || i->owner == NULL)
 {
 free(i->name);
 free(i->owner);
 free(i);
-return (NULL);
+return NULL;
 }
-for (j = 0; j <= name_len; j++)
+while (j <= len1)
 {
 i->name[j] = name[j];
+j++;
 }
-for (j = 0; j <= owner_len; j++)
+j = 0;
+while (j <= len2)
 {
 i->owner[j] = owner[j];
-i->age = age;
+j++;
 }
-return (i);
+i->age = age;
+return i;
 }
