@@ -6,6 +6,7 @@
  * Return: alksjdalksjdlkasjdlkajkl
  */
 char *_memset(char *s, char b, unsigned int n)
+{
 int len = 0;
 int c = 0;
     while (s[len] != 0)
@@ -25,3 +26,4 @@ int c = 0;
         n++;
     }
 return (*s);
+}
