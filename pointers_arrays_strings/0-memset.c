@@ -7,23 +7,11 @@
  */
 char *_memset(char *s, char b, unsigned int n)
 {
-unsigned int len = 0;
 unsigned int c = 0;
-    while (s[len] != 0)
-    {       
-    len++;  
-    }
-    while (c <= n)
+    while (c < n)
     {
-        putchar('.');
-        c++;
-    }
-    
-    while (n<len)
-    {
-        
-        putchar(s[n]);
-        n++;
-    }
-return (*s);
+     	*s++ = b;
+         c++;
+   }
+return (s);
 }
