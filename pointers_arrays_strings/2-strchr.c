@@ -10,7 +10,6 @@ char *_strchr(char *s, char c)
 {
 char b = 0;
 char yeni[100]; 
-char *yeni;
 unsigned int x = 0;
 unsigned int d = 0;
 int i = 0;
@@ -20,7 +19,7 @@ while (*(s + x) != c)
 }
 while (s[x] != '\0')
 {
-	*(yeni + d) = *(s + x);
+	yeni[d] = *(s + x);
 	x++;
 	d++;
 	i++;
