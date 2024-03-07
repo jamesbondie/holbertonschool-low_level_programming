@@ -9,6 +9,7 @@
 char *_strchr(char *s, char c)
 {
 char b = 0;
+char yeni[100]; 
 char *yeni;
 unsigned int x = 0;
 unsigned int d = 0;
