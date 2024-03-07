@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * _strcat - good asdasdasdasda
- * @dest: aisjdaisjdalksjdlkasjdkl
- * @src: askjdkalksjdkaljsdlkaskd
+ * _memset - good asdasdasdasda
+ * @b: aisjdaisjdalksjdlkasjdkl
+ * @s: askjdkalksjdkaljsdlkaskd
  * Return: alksjdalksjdlkasjdlkajkl
  */
 char *_memset(char *s, char b, unsigned int n)
