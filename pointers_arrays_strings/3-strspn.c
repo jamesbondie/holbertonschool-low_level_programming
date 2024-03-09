@@ -14,6 +14,7 @@ int b = 0;
 int c = 0;
 while (s[x] != '\0')
 {
+	b = 0;
 while (accept[b] != ' ')
 {
 if (s[x] == accept[b])
