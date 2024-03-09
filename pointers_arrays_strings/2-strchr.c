@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stddef.h>
 /**
- * _memcpy - good asdasdasdasda
+ * _strchr - good asdasdasdasda
  * aisjdaisjdalksjdlkasjdkl
  * @s: askjdkalksjdkaljsdlkaskd
  * @c: aksjdkjasdjka
