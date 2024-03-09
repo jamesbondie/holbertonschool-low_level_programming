@@ -23,5 +23,12 @@ return (yeni);
 }
 yeni++;
 }
+if (c == '\0')
+{
+return (str);
+}
+else
+{
 return (NULL);
+}
 }
