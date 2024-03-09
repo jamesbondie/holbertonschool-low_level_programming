@@ -22,5 +22,6 @@ if (*yeni == c)
 return (yeni);
 }
 yeni++;
+i++;
 }
 }
