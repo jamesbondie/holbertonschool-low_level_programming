@@ -25,7 +25,7 @@ yeni++;
 }
 if (c == '\0')
 {
-return (str);
+return (yeni);
 }
 else
 {
