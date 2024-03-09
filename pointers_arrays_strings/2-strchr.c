@@ -2,9 +2,9 @@
 #include <stddef.h>
 /**
  * _memcpy - good asdasdasdasda
- * @dest: aisjdaisjdalksjdlkasjdkl
- * @src: askjdkalksjdkaljsdlkaskd
- * @n: aksjdkjasdjka
+ * aisjdaisjdalksjdlkasjdkl
+ * @s: askjdkalksjdkaljsdlkaskd
+ * @c: aksjdkjasdjka
  * Return: alksjdalksjdlkasjdlkajkl
  */
 char *_strchr(char *s, char c)
