@@ -20,7 +20,6 @@ while (accept[b] != ' ')
 if (s[x] == accept[b])
 {
 c++;
-break;
 }
 b++;		
 }
