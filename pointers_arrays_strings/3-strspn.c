@@ -26,5 +26,5 @@ b++;
 x++;
 }
 b--;
-return (b);
+return (c);
 }
