@@ -11,7 +11,7 @@ unsigned int _strspn(char *s, char *accept)
 {
 int x = 0;
 int b = 0;
-while (*s)
+while (s[x] != '\0')
 {
 while (s[b] != ' ')
 {
@@ -21,6 +21,7 @@ b++;
 }
 b++;		
 }
+x++;
 }
 b--;
 return (b);
