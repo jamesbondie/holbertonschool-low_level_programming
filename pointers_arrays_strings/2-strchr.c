@@ -11,7 +11,6 @@ char *_strchr(char *s, char c)
 {
 char *yeni;
 yeni = s;
-int i = 0;
 if (s == NULL)
 {
 return (NULL);
@@ -23,6 +22,5 @@ if (*yeni == c)
 return (yeni);
 }
 yeni++;
-i++;
 }
 }
