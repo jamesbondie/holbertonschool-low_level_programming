@@ -23,4 +23,5 @@ return (yeni);
 }
 yeni++;
 }
+return (NULL);
 }
