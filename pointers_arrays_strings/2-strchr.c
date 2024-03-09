@@ -10,12 +10,13 @@
 char *_strchr(char *s, char c)
 {
 char *yeni;
+yeni = s;
 int i = 0;
 if (s == NULL)
 {
 return (NULL);
 }
-while (yeni = s)
+while ()
 {
 if (*yeni == c)
 {
