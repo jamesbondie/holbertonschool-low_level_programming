@@ -1,10 +1,10 @@
 #include "main.h"
 #include <stddef.h>
 /**
- * _strchr - good asdasdasdasda
+ * _strspn - good asdasdasdasda
  * aisjdaisjdalksjdlkasjdkl
  * @s: askjdkalksjdkaljsdlkaskd
- * @c: aksjdkjasdjka
+ * @accept: aksjdkjasdjka
  * Return: alksjdalksjdlkasjdlkajkl
  */
 unsigned int _strspn(char *s, char *accept)
