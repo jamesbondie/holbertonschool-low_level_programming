@@ -19,7 +19,6 @@ while (accept[b] != ' ')
 if (s[x] == accept[b])
 {
 c++;
-b++;
 }
 b++;		
 }
