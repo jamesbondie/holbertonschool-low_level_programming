@@ -8,20 +8,18 @@
  */
 char *_strchr(char *s, char c)
 {
-char yeni[100]; 
-unsigned int x = 0;
-unsigned int d = 0;
+char *yeni;
 int i = 0;
-while (*(s + x) != c)
+if (s == NULL)
 {
-	x++;
+return (NULL);
 }
-while (s[x] != '\0')
+while (yeni = s)
 {
-	yeni[d] = *(s + x);
-	x++;
-	d++;
-	i++;
-}
+if (*yeni == c)
+{
 return (yeni);
+}
+yeni++;
+}
 }
