@@ -15,7 +15,7 @@ if (s == NULL)
 {
 return (NULL);
 }
-while ()
+while (*yeni != '\0')
 {
 if (*yeni == c)
 {
