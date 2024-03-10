@@ -7,7 +7,7 @@
  * Return: Always 0.
  */
 
-int main(int n, int tahir)
+int mani(int n, int tahir)
 {
 if (tahir * tahir == n)
 {
@@ -19,13 +19,13 @@ return (-1);
 }
 else
 {
-return (main(n, tahir + 1));
+return (mani(n, tahir + 1));
 }
 }
 int _sqrt_recursion(int n)
 {
 if (n < 0)
 return (-1);
-return (main(n, 0));
+return (mani(n, 0));
 }
 
