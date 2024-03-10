@@ -17,8 +17,8 @@ while (accept[i])
 if (*s == accept[i])
 {
 return (s);
-i++;
 }
+i++;
 }
 s++;
 }
