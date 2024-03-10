@@ -1,7 +1,9 @@
 #include "main.h"
 
 /**
+ * mani - ihihiuijoijoj
  * _sqrt_recursion - check the code
+ * mani - ojiojoijoijoij
  * @n: askdasda
  * @tahir: sdasd
  * mani - njknkjnkjnkjn
