@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _puts_rev_recursion - check the code
+ * _print_rev_recursion - check the code
  * @s: askdasda
  * sdasd
  * Return: Always 0.
