@@ -19,7 +19,7 @@ return 0;
 }
 sum = 0;
 for (; i < argc; i++) {
-*arg = argv[i];
+char *arg = argv[i];
 for (; arg[j] != '\0'; j++) {
 if (!isdigit(arg[j])) {
 printf("Error\n");
