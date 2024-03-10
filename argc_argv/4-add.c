@@ -11,7 +11,7 @@
 int main(int argc, char *argv[]) {
 char *arg;
 int j = 0;
-int i = 1
+int i = 1;
 int sum = 0;
 if (argc == 1) {
 printf("0\n");
