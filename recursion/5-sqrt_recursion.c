@@ -1,9 +1,10 @@
 #include "main.h"
 
 /**
- * _pow_recursion - check the code
- * @x: askdasda
- * @y: sdasd
+ * _sqrt_recursion - check the code
+ * @n: askdasda
+ * @tahir: sdasd
+ * mani - njknkjnkjnkjn
  * Return: Always 0.
  */
 
