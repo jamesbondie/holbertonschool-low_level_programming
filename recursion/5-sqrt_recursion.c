@@ -25,6 +25,15 @@ else
 return (mani(n, tahir + 1));
 }
 }
+/**
+ * _sqrt_recursion - check the code
+ * mani - ojiojoijoijoij
+ * @n: askdasda
+ * sdasd
+ * mani - njknkjnkjnkjn
+ * Return: Always 0.
+ */
+
 int _sqrt_recursion(int n)
 {
 if (n < 0)
