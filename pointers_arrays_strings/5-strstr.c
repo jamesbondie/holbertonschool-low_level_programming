@@ -1,10 +1,10 @@
 #include "main.h"
 #include <stddef.h>
 /**
- * _strpbrk - good asdasdasdasda
+ * _strstr - good asdasdasdasda
  * aisjdaisjdalksjdlkasjdkl
- * @s: askjdkalksjdkaljsdlkaskd
- * @accept: aksjdkjasdjka
+ * @haystack: askjdkalksjdkaljsdlkaskd
+ * @needle: aksjdkjasdjka
  * Return: alksjdalksjdlkasjdlkajkl
  */
 char *_strstr(char *haystack, char *needle)
