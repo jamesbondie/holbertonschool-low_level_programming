@@ -23,7 +23,11 @@ if (size != 0)
 {
 	array = malloc(size * sizeof(c));
 	while (i < size)
-	{
+	{	
+		if (array == NULL)
+		{
+			return (ERROR_CODE);
+		}
 		array[i] = c;
 			i++;
 	}
