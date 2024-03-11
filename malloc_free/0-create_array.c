@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-/*
+/**
  * create_array - our main array creater supervisor
  * @size: asdasdasdasdasdasd
  * @c: asodjaoisjdaiosjdais
