@@ -24,7 +24,7 @@ if (size != 0)
 	array = malloc(size * sizeof(c));
 	while (i < size)
 	{
-		c = array[i];
+		array[i] = c;
 			i++;
 	}
 }
