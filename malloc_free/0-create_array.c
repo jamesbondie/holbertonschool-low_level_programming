@@ -23,7 +23,7 @@ if (size != 0)
 {
 	array = malloc(size * sizeof(c));
 	while (i < size)
-	{	
+	{
 		if (array == NULL)
 		{
 			return (NULL);
