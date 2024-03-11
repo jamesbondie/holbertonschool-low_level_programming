@@ -21,7 +21,7 @@ return (NULL);
 
 if (size != 0)
 {
-	array = (char*)malloc(size * sizeof(*char));
+	array = (char*)malloc(size * sizeof(char));
 	while (array)
 	{
 		c = array[i];
