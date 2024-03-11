@@ -28,6 +28,6 @@ if (size != 0)
 			i++;
 	}
 }
-
+return (array);
 
 }
