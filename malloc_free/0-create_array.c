@@ -26,7 +26,7 @@ if (size != 0)
 	{	
 		if (array == NULL)
 		{
-			return (ERROR_CODE);
+			return (NULL);
 		}
 		array[i] = c;
 			i++;
