@@ -21,10 +21,10 @@ return (NULL);
 
 if (size != 0)
 {
-	array = (char*)malloc(size * sizeof(char));
-	while (array)
+	array = malloc(size * sizeof(c));
+	while (i < size)
 	{
-		c[i] = array[i];
+		c = array[i];
 			i++;
 	}
 }
