@@ -24,7 +24,7 @@ if (size != 0)
 	array = (char*)malloc(size * sizeof(char));
 	while (array)
 	{
-		c = array[i];
+		c[i] = array[i];
 			i++;
 	}
 }
