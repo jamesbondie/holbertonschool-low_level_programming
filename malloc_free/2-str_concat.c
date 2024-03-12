@@ -24,13 +24,12 @@ char *str_concat(char *s1, char *s2)
                 len++;
         }
       
-
       
         while (s2[len2] != '\0')
         {
                 len2++;
-       }
-        pointer = malloc(len * sizeof(*s1) + len2 * sizeof(*s2) + 1);
+        }
+        pointer = malloc(len * sizeof(*s1) + len2 * sizeof(*s2));
 
 	if (pointer == NULL) 
 	{
