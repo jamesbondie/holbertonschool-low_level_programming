@@ -2,9 +2,9 @@
 #include <stdlib.h>
 
 /**
- * _strdup - our main array creater supervisor
- * @str: asdasdasdasdasdasd
- * asodjaoisjdaiosjdais
+ * str_concat - our main array creater supervisor
+ * @s1: asdasdasdasdasdasd
+ * @s2: asodjaoisjdaiosjdais
  * Return: 1 0 0asdoasdasdasd
  *
  *
@@ -34,7 +34,7 @@ while (s2[len2] != '\0')
 {
 len2++;
 }
-pointer = (char *)malloc(len * sizeof(*s1) + len2 * sizeof(*s2) + 1);
+pointer = (char *)malloc(len *sizeof(*s1) + len2 *sizeof(*s2) + 1);
 if (pointer == NULL)
 {
 return (NULL);
@@ -50,6 +50,6 @@ pointer[i] = s2[c];
 c++;
 i++;
 }
-pointer[len+len2] = '\0';
+pointer[len + len2] = '\0';
 return (pointer);
 }
