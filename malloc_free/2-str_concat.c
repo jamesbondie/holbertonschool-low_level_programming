@@ -26,7 +26,7 @@ char *str_concat(char *s1, char *s2)
 	{
 		len2++;
 	}
-	pointer = malloc(len + len2  + 1);
+	pointer = malloc(len + len2  + 2);
 	while (i < len)
 	{
 		pointer[i] = s1[i];
