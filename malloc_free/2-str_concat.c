@@ -26,7 +26,12 @@ char *str_concat(char *s1, char *s2)
         }
         }
 
-
+	if (s1 == NULL)
+                {
+			len = 0;                       
+  
+		}
+	
 
         if (s2 != NULL)
         {
@@ -36,29 +41,23 @@ char *str_concat(char *s1, char *s2)
         }
         }
 	
+	if (s2 == NULL)
+                {
+                     len2 = 0;
+                }
 
-        pointer = malloc(len + len2  + 1);
-	
 	if ( s1 == NULL && s2 == NULL)
         {
                 return (NULL);
         }
 
-	if (s1 == NULL)
-                {
-                        s1[0] = '\0';
-                }
+        pointer = malloc(len + len2  + 1);
+
         while (i < len)
         {
                 pointer[i] = s1[i];
                 i++;
         }
-
-	if (s2 == NULL)
-                {
-                        s2[0] = '\0';
-                }
-
 
         while (i < len + len2 + 1)
         {
