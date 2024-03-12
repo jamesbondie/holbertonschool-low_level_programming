@@ -25,11 +25,11 @@ while (str[i] != '\0')
 }
 i = 0;
 
-pointer = malloc(sizeof(str));
+pointer = malloc(len + 1);
 
 if (pointer == NULL)
 {
-return (NULL);
+return (1);
 }
 
 while (i < len + 1)
