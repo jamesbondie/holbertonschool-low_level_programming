@@ -53,6 +53,11 @@ char *str_concat(char *s1, char *s2)
 
         pointer = malloc(len + len2  + 1);
 
+	if (pointer == NULL) 
+	{
+        return NULL;
+	}
+
         while (i < len)
         {
                 pointer[i] = s1[i];
