@@ -14,11 +14,20 @@
 
 char *_strdup(char *str)
 {
+	int len = 0;
+	int i = 0;
 char *pointer;
-
-uzunlugunu tap malloc ele
-
-
+while (str[i] != '\0')
+{
+	len++;
+	i++;
+}
+i = 0;
+pointer = malloc(len * sizeof(*pointer));
+while (i < len)
+{
+pointer[i] = str[i];
+}
 
 
 return (pointer);
