@@ -18,14 +18,23 @@ char *str_concat(char *s1, char *s2)
 	int len2 = 0;
 	int i = 0;
 	int c = 0;
+	if (s1 != NULL)
+	{
 	while (s1[len] != '\0')
 	{
 		len++;
 	}
+	}
+
+	if (s2 != NULL)
+	{
 	while (s1[len2] != '\0')
 	{
 		len2++;
 	}
+	}
+
+
 	pointer = malloc(len + len2  + 1);
 	while (i < len)
 	{
