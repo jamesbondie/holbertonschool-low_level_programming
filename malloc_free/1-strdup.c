@@ -29,7 +29,7 @@ pointer = malloc(len + 1);
 
 if (pointer == NULL)
 {
-return (1);
+return (NULL);
 }
 
 while (i < len + 1)
