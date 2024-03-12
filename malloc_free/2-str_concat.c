@@ -27,8 +27,12 @@ char *str_concat(char *s1, char *s2)
 		len2++;
 	}
 	pointer = malloc(len + len2  + 1);
-	while (i < len + 1)
+	while (i < len)
 	{
+		if (s1[i] == '\0')
+		{
+			i++;
+		}
 		pointer[i] = s1[i];
 		i++;
 	}
