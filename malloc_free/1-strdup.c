@@ -25,7 +25,7 @@ while (str[i] != '\0')
 }
 i = 0;
 
-pointer = malloc(len);
+pointer = malloc(sizeof(str));
 
 if (pointer == NULL)
 {
