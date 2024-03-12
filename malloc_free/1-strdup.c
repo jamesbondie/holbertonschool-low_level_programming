@@ -37,6 +37,9 @@ pointer[i] = str[i];
 i++;
 }
 
-
+if (pointer == NULL)
+{
+return (NULL);
+}
 return (pointer);
 }
