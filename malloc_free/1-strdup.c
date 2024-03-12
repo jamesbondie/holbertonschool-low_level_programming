@@ -31,7 +31,7 @@ if (pointer == NULL)
 return (NULL);
 }
 
-while (str)
+while (*str)
 {
 pointer[i] = str[i];
 i++;
