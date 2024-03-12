@@ -44,8 +44,10 @@ char *str_concat(char *s1, char *s2)
 
         while (c < len2)
         {
-                pointer[i + c] = s2[c];
+                pointer[i] = s2[c];
                 c++;
+		i++;
         }
+	pointer[len+len2] = '\0';
         return (pointer);
 }
