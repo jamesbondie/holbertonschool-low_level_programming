@@ -26,13 +26,13 @@ char *str_concat(char *s1, char *s2)
 	{
 		len2++;
 	}
-	pointer = malloc(len + len2  + 2);
-	while (i < len)
+	pointer = malloc(len + len2  + 1);
+	while (i < len + 1)
 	{
 		pointer[i] = s1[i];
 		i++;
 	}
-	while (i < len + len2)
+	while (i < len + len2 + 1)
 	{
 		pointer[i] = s2[c];
 		i++;
