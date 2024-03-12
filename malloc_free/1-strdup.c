@@ -31,18 +31,14 @@ if (pointer == NULL)
 return (NULL);
 }
 
-if (pointer != NULL)
-{
 while (i < len + 1)
 {
 pointer[i] = str[i];
 i++;
 }
-
-return (pointer);
-}
-else 
+if (pointer == NULL)
 {
-	return (NULL);
+return (NULL);
 }
+	return (pointer);
 }
