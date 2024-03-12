@@ -24,11 +24,8 @@ while (str[i] != '\0')
 	i++;
 }
 i = 0;
-if (pointer == NULL)
-{
-return (NULL);
-}
-pointer = malloc(len + 1);
+
+pointer = malloc(len);
 
 if (pointer == NULL)
 {
