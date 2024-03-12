@@ -29,11 +29,11 @@ char *str_concat(char *s1, char *s2)
         {
                 len2++;
         }
-        pointer = malloc(len * sizeof(*s1) + len2 * sizeof(*s2));
+        pointer = malloc(len * sizeof(*s1) + len2 * sizeof(*s2) + 1);
 
 	if (pointer == NULL) 
 	{
-        return NULL;
+        return (NULL);
 	}
 
         while (i < len)
@@ -42,10 +42,9 @@ char *str_concat(char *s1, char *s2)
                 i++;
         }
 
-        while (i < len + len2 + 1)
+        while (c < len2)
         {
-                pointer[i] = s2[c];
-                i++;
+                pointer[i + c] = s2[c];
                 c++;
         }
         return (pointer);
