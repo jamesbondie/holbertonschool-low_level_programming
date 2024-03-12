@@ -2,9 +2,9 @@
 #include <stdlib.h>
 
 /**
- * create_array - our main array creater supervisor
- * @size: asdasdasdasdasdasd
- * @c: asodjaoisjdaiosjdais
+ * _strdup - our main array creater supervisor
+ * @str: asdasdasdasdasdasd
+ * asodjaoisjdaiosjdais
  * Return: 1 0 0asdoasdasdasd
  *
  *
