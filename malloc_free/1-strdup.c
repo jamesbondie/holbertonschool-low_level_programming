@@ -32,15 +32,17 @@ if (pointer == NULL)
 return (NULL);
 }
 
+if (pointer != NULL)
+{
 while (i < len + 1)
 {
 pointer[i] = str[i];
 i++;
 }
 
-if (pointer == NULL)
-{
-return (NULL);
-}
 return (pointer);
+}
+else 
+{
+	return (NULL);
 }
