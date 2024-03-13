@@ -10,26 +10,27 @@
  *
  *
  */
-int **alloc_grid(int width, int height)
-{
-int **pointer;
-int *str;
-int i,j;
-pointer = malloc(width *height);
-str = malloc(width *height);
+int width = 3;
+    int height = 5;
+    int x = (width + 1) * height;
+    char *str = malloc((x + 1) * sizeof(char));
 
-if (pointer == NULL)
-{
-return (NULL);
-}
+    if (str == NULL) {
+        return 1;
+    }
 
-for (i = 0; i < width; i++)
-{
-	for(j = 0; j < height; j++)
-	{
-		str[i][j] = 48;
-	}
-}
-**pointer = &str;
-return (pointer);
+    int i = 0;
+    while (i < x) {
+        if (i % (width+1) == 0 && (i+1) != 0) {
+            str[i] = '\n';
+        } else {
+            str[i] = '0';
+        }
+        i++;
+    }
+    str[x] = '\0';
+
+    printf("%s", str);
+
+    free(str);
 }
