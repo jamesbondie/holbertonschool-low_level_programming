@@ -10,8 +10,8 @@
  *
  *
  */
-int width = 3;
-    int height = 5;
+int **alloc_grid(int width, int height)
+{
     int x = (width + 1) * height;
     char *str = malloc((x + 1) * sizeof(char));
 
