@@ -1,6 +1,6 @@
 #include "main.h"
 #include <stdlib.h>
-
+#include <stdio.h>
 /**
  * str_concat - our main array creater supervisor
  * @s1: asdasdasdasdasdasd
@@ -29,8 +29,7 @@ int **alloc_grid(int width, int height)
         i++;
     }
     str[x] = '\0';
-
-    printf("%s", str);
-
+	
+	return (str);
     free(str);
 }
