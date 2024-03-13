@@ -32,9 +32,9 @@ if (arr[i] == NULL)
 {
 for (i = 0; i < height; i++)
 {
-free (arr[i]);
+free(arr[i]);
 }
-free (arr);
+free(arr);
 return (NULL);
 }
 for (j = 0; j < width; j++)
