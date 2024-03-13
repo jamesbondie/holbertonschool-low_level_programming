@@ -12,9 +12,12 @@
  */
 int **alloc_grid(int width, int height)
 {
-int *pointer;
+int **pointer;
+char *str;
 int i,j;
 pointer = malloc(width * height);
+str = malloc(width *height);
+
 if (pointer == NULL)
 {
 return (NULL);
@@ -24,8 +27,9 @@ for (i = 0; i < width; i++)
 {
 	for(j = 0; j < height; j++)
 	{
-		pointer[i][j] = '0';
+		str[i][j] = '0';
 	}
 }
+**pointer = &str;
 return (pointer);
 }
