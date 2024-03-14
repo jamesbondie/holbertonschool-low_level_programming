@@ -3,7 +3,7 @@
 #include <stdlib.h>
 /**
  * string_nconcat - it has to concat our strings with n number
- * @b: it is our first char pointer
+ * @s1: it is our first char pointer
  * @s2: it is our second char pointer
  * @n: it is our amount of char has to be appended
  * Return: it returns our value
