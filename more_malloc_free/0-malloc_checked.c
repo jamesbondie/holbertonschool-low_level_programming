@@ -9,7 +9,7 @@ pointer = malloc(b);
 
 if (pointer == NULL)
 {
-	return ("98");
+	exit(98);
 }
 return (pointer);
 
