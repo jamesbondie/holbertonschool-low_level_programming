@@ -46,6 +46,10 @@ while ( b < n)
 	len3++;
 	b++;
 }
+if ( len2 <= len3)
+{
+	len3 = len2;
+}
 pointer = malloc(len1 + len3);
 
 if (pointer == NULL)
