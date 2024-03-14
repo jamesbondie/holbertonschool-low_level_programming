@@ -53,6 +53,6 @@ while (j < len3)
 pointer[i + j] = s2[j];
 j++;
 }
-pointer[i+j] = '\0';
+pointer[i + j] = '\0';
 return (pointer);
 }
