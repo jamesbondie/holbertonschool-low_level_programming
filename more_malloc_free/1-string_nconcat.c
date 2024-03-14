@@ -14,35 +14,23 @@ char *pointer;
 int len1 = 0, len2 = 0, len3 = 0, i = 0, j = 0;
 unsigned int b = 0;
 if (s1 == NULL)
-{
 s1 = "";
-}
 if (s2 == NULL)
-{
 s2 = "";
-}
 while (s1[len1] != '\0')
-{
 len1++;
-}
 while (s2[len2] != '\0')
-{
 len2++;
-}
 while (b < n)
 {
-	len3++;
-	b++;
+len3++;
+b++;
 }
 if (len2 <= len3)
-{
-	len3 = len2;
-}
+len3 = len2;
 pointer = malloc(len1 + len3 + 1);
 if (pointer == NULL)
-{
-	return (NULL);
-}
+return (NULL);
 while (i < len1)
 {
 pointer[i] = s1[i];
