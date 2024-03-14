@@ -7,7 +7,7 @@
  * malloc_checked - it checks our malloc function
  * @b: it is our unsigned value
  * Return: it returns our value
- * 
+ *
 */
 
 void *malloc_checked(unsigned int b)
