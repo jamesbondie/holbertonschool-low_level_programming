@@ -19,15 +19,13 @@ int *ptr;
 if (nmemb == 0 && size == 0)
 	return (NULL);
 hasil = nmemb *size;
-ptr = malloc(nmemb *size);
+hasilce = hasil + 1;
+ptr = malloc(hasilce);
 
 if (ptr == NULL)
 	return (NULL);
-while (b < hasil)
-{
-	ptr[b] = c;
-	b++;
-}
+memset(buffer, 0, hasilce)
+
 return (ptr);
 free (ptr);
 }
