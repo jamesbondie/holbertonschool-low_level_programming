@@ -13,6 +13,7 @@
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
 unsigned int hasil;
+unsigned int b = 0;
 unsigned int hasilce;
 int *ptr;
 
@@ -24,7 +25,12 @@ ptr = malloc(hasilce);
 
 if (ptr == NULL)
 	return (NULL);
-memset(ptr, 0, hasilce);
+
+while (b < hasil)
+{
+	ptr[b] = 0;
+	b++
+}
 
 return (ptr);
 free (ptr);
