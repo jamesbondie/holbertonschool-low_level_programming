@@ -18,7 +18,7 @@ int *ptr;
 if (nmemb == 0 || size == 0)
 	return (NULL);
 hasil = nmemb *size;
-ptr = (int *)malloc(hasil *sizeof(int));
+ptr = (int *)malloc(hasil *sizeof(int) + 1);
 if (ptr == NULL)
 	return (NULL);
 while (b < hasil)
@@ -26,7 +26,7 @@ while (b < hasil)
 	ptr[b] = 0;
 	b++;
 }
-ptr[b] = 0;
+ptr[b] = '\0';
 return (ptr);
 free (ptr);
 }
