@@ -29,7 +29,7 @@ if (ptr == NULL)
 while (b < hasil)
 {
 	ptr[b] = 0;
-	b++
+	b++;
 }
 
 return (ptr);
