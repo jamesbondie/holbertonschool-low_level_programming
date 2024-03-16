@@ -26,7 +26,7 @@ ptr = malloc(hasilce);
 
 if (ptr == NULL)
 	return (NULL);
-memset(buffer, 0, hasilce)
+memset(ptr, 0, hasilce);
 
 return (ptr);
 free (ptr);
