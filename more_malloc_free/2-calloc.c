@@ -1,6 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 /**
  * string_nconcat - it has to concat our strings with n number
  * @s1: it is our first char pointer
