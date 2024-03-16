@@ -2,9 +2,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * _calloc - it allocate memory with the size of array elements
- * @nmemb: it is our array
- * @size: it is the size of our array variable
+ * array_range - to be continued...
+ * @min: to be continued...
+ * @max: to be continued...
  * Return: it returns our value
 */
 int *array_range(int min, int max)
