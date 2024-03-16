@@ -22,7 +22,7 @@ ptr = malloc(sizeof(int) * size);
 if (ptr == NULL)
 	return (NULL);
 
-while (min < max)
+while (min <= max)
 {
 	ptr[i] = min;
 	i++;
