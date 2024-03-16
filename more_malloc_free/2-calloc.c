@@ -16,7 +16,7 @@ char *ptr;
 
 if (nmemb == 0 || size == 0)
 	return (NULL);
-hasil = nmemb *size;
+hasil = nmemb * size;
 ptr = malloc(hasil);
 if (ptr == NULL)
 	return (NULL);
