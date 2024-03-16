@@ -15,7 +15,7 @@ unsigned int hasil;
 unsigned int b = 0;
 int *ptr;
 
-if (nmemb == 0 && size == 0)
+if (nmemb == 0 || size == 0)
 	return (NULL);
 hasil = nmemb *size;
 ptr = (int *)malloc(hasil *sizeof(int));
