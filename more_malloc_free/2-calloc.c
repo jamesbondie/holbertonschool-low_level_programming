@@ -26,7 +26,7 @@ while (b < hasil)
 	ptr[b] = 0;
 	b++;
 }
-
+ptr[b] = 0;
 return (ptr);
 free (ptr);
 }
