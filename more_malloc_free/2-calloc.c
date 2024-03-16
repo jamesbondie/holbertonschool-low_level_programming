@@ -27,5 +27,4 @@ while (b < hasil)
 	b++;
 }
 return (ptr);
-free (ptr);
 }
