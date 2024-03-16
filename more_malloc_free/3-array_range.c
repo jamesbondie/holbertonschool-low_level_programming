@@ -24,7 +24,7 @@ if (ptr == NULL)
 
 while (min < max)
 {
-	ptr[i] == min;
+	ptr[i] = min;
 	i++;
 	min++;
 }
