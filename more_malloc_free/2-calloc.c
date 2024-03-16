@@ -2,10 +2,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * string_nconcat - it has to concat our strings with n number
- * @s1: it is our first char pointer
- * @s2: it is our second char pointer
- * @n: it is our amount of char has to be appended
+ * _calloc - it allocate memory with the size of array elements
+ * @nmemb: it is our array
+ * @size: it is the size of our array variable
  * Return: it returns our value
 */
 
@@ -18,7 +17,7 @@ int *ptr;
 if (nmemb == 0 || size == 0)
 	return (NULL);
 hasil = nmemb *size;
-ptr = (int *)malloc(hasil *sizeof(int));
+ptr = malloc(hasil);
 if (ptr == NULL)
 	return (NULL);
 while (b < hasil)
