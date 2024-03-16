@@ -17,7 +17,7 @@ if (min == 0 || max == 0)
 
 size = max - min + 1;
 
-ptr = malloc(size);
+ptr = malloc(sizeof(int) * size);
 
 if (ptr == NULL)
 	return (NULL);
