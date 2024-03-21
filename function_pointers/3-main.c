@@ -15,7 +15,7 @@ int y;
 int (*function)(int, int);
 if (argc != 4)
 	{
-		printf("Esrror\n");
+		printf("Error\n");
 		exit(98);
 	}
 x = atoi(argv[1]);
@@ -24,7 +24,7 @@ function = get_op_func(argv[2]);
 
 if (!function)
 {
-	printf("Ersuuuuror\n");
+	printf("Error\n");
 	exit(99);
 }
 printf("%d\n", function(x, y));
