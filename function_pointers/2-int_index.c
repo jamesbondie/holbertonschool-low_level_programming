@@ -9,12 +9,12 @@
 int int_index(int *array, int size, int (*cmp)(int))
 {
 int x = 0;
-unsigned int i = 0;
+int i = 0;
 if (size <= 0)
 	return (-1);
 while (i < size)
 {
-cmp(array[i];
+cmp(array[i]);
 i++;
 x++;
 }
