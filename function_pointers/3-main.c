@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <stdbool.h>
 #include "3-calc.h"
 /**
  * int_index - <F12><F12><F12><F11>.
