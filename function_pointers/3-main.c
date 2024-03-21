@@ -3,10 +3,9 @@
 #include <string.h>
 #include "3-calc.h"
 /**
- * int_index - <F12><F12><F12><F11>.
- * @array: <F10><F10><F11><F11>
- * @size: <F11><F11><F11><F11>
- * @cmp: <F11><F11><F11><F11><F11><F11><F11><F11>
+ * main - <F12><F12><F12><F11>.
+ * @argc: <F10><F10><F11><F11>
+ * @argv: <F11><F11><F11><F11><F11><F11><F11><F11><F11><F11><F11><F11>
  * Return: <F8><F7><F8><F7>
  */
 int main(int argc, char *argv[])
