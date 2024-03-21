@@ -22,10 +22,10 @@ op_t ops[] = {
 };
 int i;
 
-while (ops[i].x != NULL)
+while (ops[i].op != NULL)
 {
-	if (ops[i].d == s)
-		return (ops[i].d)
+	if (ops[i].op == s)
+		return (ops[i].f)
 			i++;
 }
 }
