@@ -6,6 +6,7 @@
  * @array: <F10><F10><F11><F11>
  * @size: <F11><F11><F11><F11>
  * @cmp: <F11><F11><F11><F11><F11><F11><F11><F11>
+ * Return: <F8><F7><F8><F7>
  */
 int int_index(int *array, int size, int (*cmp)(int))
 {
