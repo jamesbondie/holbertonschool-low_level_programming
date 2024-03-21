@@ -3,7 +3,7 @@
  * sum_them_all - my beautiful function
  * @n: okai okai, lemme guess how long i am
  * oaisdjaoisjdoaisjdoiasjdioj
- *
+ * Return: asdaskdahsjdasjkd
  */
 int sum_them_all(const unsigned int n, ...)
 {
