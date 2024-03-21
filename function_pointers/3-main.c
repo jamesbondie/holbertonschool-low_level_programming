@@ -24,7 +24,7 @@ function = get_op_func(argv[2]);
 
 if (!function)
 {
-	printf("Error\n");
+	printf("Ersuuuuror\n");
 	exit(99);
 }
 printf("%d\n", function(x, y));
