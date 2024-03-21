@@ -8,21 +8,28 @@
  * @cmp: <F11><F11><F11><F11><F11><F11><F11><F11>
  * Return: <F8><F7><F8><F7>
  */
-int int_index(int *array, int size, int (*cmp)(int))
+int main(int argc, char *argv[])
 {
-int i = 0;
-if (size <= 0)
-return (-1);
-if (array == NULL)
-	return (-1);
-if (cmp == NULL)
-	return (-1);
-while (i < size)
+int x;
+int y;
+int (*function)(int, int);
+
+if (argc != 4)
+	{
+		printf("Error\n");
+		exit(98);
+	}
+x = atoi(argv[1]);
+y = atoi(argv[3]);
+
+function = get_op_func(argv[2]);
+
+if (!get_op_func(argv[2]))
 {
-cmp(array[i]);
-if (cmp(array[i]) == true)
-	return (i);
-i++;
+	printf("Error\n");
+	exit(99);
 }
-return (-1);
+printf("%d\n", (get_op_func(argv[2]))(x, y));
+
+return (0);
 }
