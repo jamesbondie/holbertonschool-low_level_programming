@@ -21,11 +21,6 @@ op_t ops[] = {
         {NULL, NULL}
 };
 int i = 0;
-if (strlen(s) > 1)
-{
-	printf("Errosr\n");
-		exit(99);
-}
 while (i <= 4)
 {
 	if (*s == *(ops[i].op))

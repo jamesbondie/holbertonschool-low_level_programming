@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 #include "3-calc.h"
 /**
  * int_index - <F12><F12><F12><F11>.
@@ -22,7 +23,7 @@ x = atoi(argv[1]);
 y = atoi(argv[3]);
 function = get_op_func(argv[2]);
 
-if (!function)
+if (!function || strlen(argv[2]) > 1)
 {
 	printf("Error\n");
 	exit(99);
