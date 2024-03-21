@@ -17,8 +17,9 @@ while (i < size)
 cmp(array[i]);
 i++;
 x++;
+if (x == 1)
+	return (i);
 }
 if (x == 0)
 return (-1);
-return (x);
 }
