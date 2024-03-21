@@ -14,11 +14,12 @@ int main(int argc, char *argv[])
 int x;
 int y;
 int (*function)(int, int);
+
 if (argc != 4)
-	{
-		printf("Error\n");
-		exit(98);
-	}
+{
+printf("Error\n");
+exit(98);
+}
 x = atoi(argv[1]);
 y = atoi(argv[3]);
 function = get_op_func(argv[2]);
