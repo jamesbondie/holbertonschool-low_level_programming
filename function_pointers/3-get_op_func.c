@@ -24,7 +24,7 @@ int i = 0;
 
 while (i <= 4)
 {
-	if (*(ops[i].op) == *s)
+	if (*s == *(ops[i].op))
 		return (ops[i].f);
 			i++;
 }
