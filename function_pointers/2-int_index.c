@@ -14,11 +14,13 @@ if (size <= 0)
 	return (-1);
 while (i < size)
 {
-cmp(array[i]);
-i++;
+if (cmp(array[i]) == true)
+{
 x++;
 if (x == 1)
 	return (i);
+}
+i++;
 }
 if (x == 0)
 return (-1);
