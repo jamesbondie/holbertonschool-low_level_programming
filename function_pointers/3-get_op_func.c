@@ -25,7 +25,7 @@ int i;
 while (ops[i].op != NULL)
 {
 	if (ops[i].op == s)
-		return (ops[i].f)
+		return (ops[i].f);
 			i++;
 }
 }
