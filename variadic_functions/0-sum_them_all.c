@@ -1,9 +1,8 @@
 #include <stdarg.h>
-
 /**
  * sum_them_all - my beautiful function
  * @n: okai okai, lemme guess how long i am
- * @Return: oaisdjaoisjdoaisjdoiasjdioj
+ * oaisdjaoisjdoaisjdoiasjdioj
  *
  */
 int sum_them_all(const unsigned int n, ...)
