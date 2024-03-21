@@ -23,7 +23,7 @@ x = atoi(argv[1]);
 y = atoi(argv[3]);
 function = get_op_func(argv[2]);
 
-if (!get_op_func(argv[2]))
+if (!function)
 {
 	printf("Error\n");
 	exit(99);
