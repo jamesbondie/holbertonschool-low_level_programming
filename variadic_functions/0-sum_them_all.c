@@ -6,12 +6,6 @@
  * @Return: oaisdjaoisjdoaisjdoiasjdioj
  *
  */
-
-
-
-
-
-
 int sum_them_all(const unsigned int n, ...)
 {
 unsigned int i = 0;
