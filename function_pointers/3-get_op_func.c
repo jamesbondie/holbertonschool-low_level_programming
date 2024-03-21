@@ -3,22 +3,21 @@
 #include <stdlib.h>
 #include "3-calc.h"
 /**
- * int_index - <F12><F12><F12><F11>.
- * @array: <F10><F10><F11><F11>
- * @size: <F11><F11><F11><F11>
- * @cmp: <F11><F11><F11><F11><F11><F11><F11><F11>
+ * get_op_func - <F12><F12><F12><F11>.
+ * @s: <F10><F10><F11><F11>
+ * <F11><F11><F11><F11><F11><F11><F11><F11>
  * Return: <F8><F7><F8><F7>
  */
 int (*get_op_func(char *s))(int, int)
 {
 op_t ops[] = {
-{"+", op_add},
-{"-", op_sub},
-{"*", op_mul},
-{"/", op_div},
-{"%", op_mod},
-{NULL, NULL}
-};
+        {"+", op_add},
+        {"-", op_sub},
+        {"*", op_mul},
+        {"/", op_div},
+        {"%", op_mod},
+        {NULL, NULL}
+    };
 int i = 0;
 while (i <= 4)
 {
