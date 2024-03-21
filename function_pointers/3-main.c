@@ -15,7 +15,7 @@ int y;
 int (*function)(int, int);
 if (argc != 4)
 	{
-		printf("Error\n");
+		printf("Esrror\n");
 		exit(98);
 	}
 x = atoi(argv[1]);
