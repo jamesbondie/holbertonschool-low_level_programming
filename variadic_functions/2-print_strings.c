@@ -15,7 +15,7 @@ while (i < n)
 {
 if (n != '\0' )
 printf("%s", va_arg(args, char *));
-if (char * == NULL)
+if ((args, char *) == NULL)
 printf("nil");
 if (i < n - 1)
 {
