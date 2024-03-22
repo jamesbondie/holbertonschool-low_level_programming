@@ -15,7 +15,7 @@ char c;
 int i;
 float f;
 char *s;
-va_start(args, x);
+va_start(args, format);
 while (*x) {
 if (*x == 'c')
 {
