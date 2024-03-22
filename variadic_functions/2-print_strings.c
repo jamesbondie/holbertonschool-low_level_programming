@@ -14,7 +14,7 @@ va_start(args, n);
 while (i < n)
 {
 if (n != '\0' )
-printf("%d", va_arg(args, int));
+printf("%s", va_arg(args, char));
 if (n == '\0')
 printf("nil");
 if (i < n - 1)
