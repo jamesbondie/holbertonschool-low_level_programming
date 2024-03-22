@@ -18,5 +18,6 @@ if (i < n - 1)
 printf("%s", separator);
 i++;
 }
+printf("\n");
 va_end(args);
 }
