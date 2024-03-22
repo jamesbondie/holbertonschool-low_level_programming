@@ -15,8 +15,6 @@ va_list d;
 va_start(d, format);
 while (format && format[x])
 {
-default:
-continue;
 switch (format[x++])
 {
 case 'c':
@@ -34,6 +32,8 @@ if (s == NULL)
 s = "(nil)";
 printf("%s", s);
 break;
+default:
+continue;
 }
 if (format[x])
 printf(", ");
