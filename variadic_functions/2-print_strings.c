@@ -17,7 +17,7 @@ const char *str = va_arg(args, const char *);
 if (str != NULL)
 printf("%s", str);
 if (str == NULL)
-printf("nil");
+printf("(nil)");
 if (i < n - 1)
 {
 if (separator != NULL)
