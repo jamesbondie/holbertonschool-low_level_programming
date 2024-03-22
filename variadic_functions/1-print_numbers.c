@@ -9,15 +9,14 @@
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
 unsigned int i = 0;
-va_list x;
-va_list y;
-va_start(x, n);
-va_start(y, separator);
+va_list args;
+va_start(args, n);
 while (i < n)
-printf(va_arg(x, n));
-printf(va_arg(y, separator));
+{
+printf("%d", va_arg(args, int));
+if (i < n - 1)
+printf("%s", separator);
 i++;
 }
-va_end(x);
-va_end(y);
+va_end(args);
 }
