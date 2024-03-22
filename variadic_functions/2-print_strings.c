@@ -14,7 +14,7 @@ va_start(args, n);
 while (i < n)
 {
 const char *str = va_arg(args, const char *);
-if (str != '\0' )
+if (str != NULL)
 printf("%s", str);
 if (str == NULL)
 printf("nil");
