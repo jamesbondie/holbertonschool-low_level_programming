@@ -15,6 +15,8 @@ va_list d;
 va_start(d, format);
 while (format && format[x])
 {
+default:
+continue;
 switch (format[x++])
 {
 case 'c':
