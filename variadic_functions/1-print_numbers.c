@@ -1,4 +1,5 @@
 #include <stdarg.h>
+#include <stdio.h>
 /**
  * print_numbers - my beautiful function
  * @separator: okai okai, lemme guess how long i am
