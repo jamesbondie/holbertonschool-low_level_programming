@@ -13,9 +13,10 @@ va_list args;
 va_start(args, n);
 while (i < n)
 {
-if (n != '\0' )
-printf("%s", va_arg(args, char *));
-if ((args, char *) == NULL)
+const char *str = va_arg(args, const char *);
+if (str != '\0' )
+printf("%s", str);
+if (str == NULL)
 printf("nil");
 if (i < n - 1)
 {
