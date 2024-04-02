@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "lists.h"
 
 /**
  * print_list - it prints all the elementes of list_t list and return the number of nodes
