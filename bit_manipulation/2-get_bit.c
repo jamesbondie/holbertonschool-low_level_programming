@@ -14,3 +14,4 @@ if (index < x)
 return ((n >> index) & 1);
 }
 return (-1);
+}
