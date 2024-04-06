@@ -15,14 +15,14 @@ list_t *iter = *head;
 list_t *temp;
 int lenstr = 0;
 
-if (!*head)
-{
-	*head = temp;
-	return (temp);
-}
 temp = malloc(sizeof(list_t));
 if (temp == NULL)
 	return (NULL);
+if (!*head)
+{
+        *head = temp;
+        return (temp);
+}
 while(str[lenstr])
 	lenstr++;
 temp->str = strdup(str);
