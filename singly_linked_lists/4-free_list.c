@@ -14,13 +14,13 @@
 
 void free_list(list_t *head)
 {
-list_t *iter = head;
+	if (head != NULL)
+	{
+if (head->next != NULL)
+free_list(head->next);
 
-while (iter != NULL)
-{
-iter = iter->next;
-free(head);
-head = iter;
-}
+
 free(head->str);
+free(head);
+}
 }
