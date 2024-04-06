@@ -18,8 +18,8 @@ list_t *iter = head;
 
 while (iter != NULL)
 {
-list_t *temp = iter;
 iter = iter->next;
-free(temp);
+free(head);
+head = iter;
 }
 }
