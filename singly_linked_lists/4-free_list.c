@@ -22,5 +22,4 @@ list_t *temp = iter;
 iter = iter->next;
 free(temp);
 }
-return (head);
 }
