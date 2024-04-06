@@ -1,3 +1,4 @@
+#include "main.h"
 /**
 * binary_to_uint - it converts binary to unsignet int
 * @b: char b
