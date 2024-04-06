@@ -18,15 +18,15 @@ int lenstr = 0;
 temp = malloc(sizeof(list_t));
 if (temp == NULL)
 	return (NULL);
-while(str[lenstr])
+while (str[lenstr])
 	lenstr++;
 temp->str = strdup(str);
 temp->len = lenstr;
 temp->next = NULL;
 if (!*head)
 {
-        *head = temp;
-        return (temp);
+*head = temp;
+return (temp);
 }
 while (iter->next)
 	iter = iter->next;
