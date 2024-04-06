@@ -34,5 +34,5 @@ while (head->next == NULL)
 head->next = temp;
 if (!str)
 	return (NULL);
-return (x);
+return (temp);
 }
