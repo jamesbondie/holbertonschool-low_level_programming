@@ -23,5 +23,4 @@ free(head);
 head = iter;
 }
 free(head->str);
-free(head);
 }
