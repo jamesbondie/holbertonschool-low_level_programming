@@ -1,3 +1,4 @@
+#include "main.h"
 /**
  * clear_bit - it deletes another bits
  * @n: number

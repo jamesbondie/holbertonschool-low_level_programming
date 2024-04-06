@@ -1,3 +1,4 @@
+#include "main.h"
 /**
  * set_bit - it sets our bit
  * @n: num
