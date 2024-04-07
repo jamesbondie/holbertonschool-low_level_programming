@@ -15,7 +15,6 @@ while (iter != NULL)
 {
 x = x + iter->n;
 iter = iter->next;
-x++;
 }
 return (x);
 }
