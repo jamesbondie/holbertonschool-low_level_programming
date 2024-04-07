@@ -1,3 +1,6 @@
+#include "main.h"
+
+
 /**
  * read_textfile - prints text for us
  * @filename: name of file
