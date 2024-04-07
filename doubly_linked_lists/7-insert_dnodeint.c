@@ -1,44 +1,41 @@
 #include "lists.h"
 /**
- * get_dnodeint_at_index - it prints  lenght of our double linked list
- * @head: it is our head
- * @index: it is our index
+ * insert_dnodeint_at_index - it prints  lenght of our double linked list
+ * @h: it is our head
+ * @idx: it is our index
+ * @n: ok
  * Return: it returns lentgth of our double linked list
  *
  *
  */
 dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 {
-dlistint_t *temp,*iter = *h;
-unsigned int x = 0;
-temp = malloc(sizeof(dlistint_t));
-if (temp == NULL)
-        return (NULL);
-temp->prev = NULL;
-temp->n = n;
-temp->next = NULL;
-if (*h == NULL)
+unsigned int i = 0;
+dlistint_t *temp = malloc(sizeof(dlistint_t));
+dlistint_t *iter = *h;
+if (!temp)
 return (NULL);
-while (x < idx && iter != NULL)
+if (idx == 0 || !iter)
+{
+add_dnodeint(h, n);
+free(temp);
+return (*h);
+}
+while (iter && i < idx - 1)
 {
 iter = iter->next;
-x++;
+i++;
 }
-if (x < idx)
+if (!iter || !iter->next)
 {
+add_dnodeint_end(h, n);
 free(temp);
-return (NULL);
+return (*h);
 }
-if (idx == 0)
-{
-return (add_dnodeint(h, n));
-}
-else
-{
-temp->next = iter;
-temp->prev = iter->prev;
-iter->prev->next = temp;
-iter->prev = temp;
-}
+temp->n = n;
+temp->next = iter->next;
+temp->prev = iter;
+iter->next->prev = temp;
+iter->next = temp;
 return (temp);
 }
