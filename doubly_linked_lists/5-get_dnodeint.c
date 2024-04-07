@@ -11,7 +11,7 @@ dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index)
 {
 dlistint_t *iter;
 unsigned int x = 0;
-while (x < 5)
+while (x < index)
 {
 	if (iter->next == NULL)
 		iter = iter->next;
