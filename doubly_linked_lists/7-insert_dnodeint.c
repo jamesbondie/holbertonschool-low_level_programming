@@ -26,11 +26,10 @@ while (iter && i < idx - 1)
 iter = iter->next;
 i++;
 }
-if (!iter || !iter->next)
+if (!iter || i != idx - 1)
 {
-add_dnodeint_end(h, n);
 free(temp);
-return (*h);
+return (NULL);
 }
 temp->n = n;
 temp->next = iter->next;
