@@ -15,7 +15,7 @@ temp->prev = NULL;
 temp->n = n;
 temp->next = NULL;
 temp->next = *head;
-head->prev = temp;
+(*head)->prev = temp;
 *head = temp;
 return (temp);
 
