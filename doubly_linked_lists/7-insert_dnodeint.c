@@ -34,6 +34,7 @@ return (NULL);
 temp->n = n;
 temp->next = iter->next;
 temp->prev = iter;
+if (iter->next)
 iter->next->prev = temp;
 iter->next = temp;
 return (temp);
