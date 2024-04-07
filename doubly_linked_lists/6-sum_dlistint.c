@@ -17,7 +17,5 @@ x = x + iter->n;
 iter = iter->next;
 x++;
 }
-if (iter == NULL)
-return (NULL);
 return (x);
 }
