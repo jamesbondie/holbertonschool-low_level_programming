@@ -15,6 +15,7 @@ while (x < index)
 {
 	if (iter->next == NULL)
 		iter = iter->next;
+	x++;
 }
 iter->next = head;
 head->prev = iter;
