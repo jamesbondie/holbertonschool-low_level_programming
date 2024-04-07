@@ -17,6 +17,6 @@ while (x < index && iter != NULL)
 x++;
 }
 if (iter == NULL)
-        return (NULL);
+return (NULL);
 return (iter);
 }
