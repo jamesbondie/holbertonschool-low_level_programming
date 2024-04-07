@@ -18,18 +18,7 @@ temp->prev = NULL;
 temp->n = n;
 temp->next = NULL;
 if (*h == NULL)
-{
-if (idx == 0)
-{
-*h = temp;
-return (temp);
-}
-else
-{
-free(temp);
 return (NULL);
-}
-}
 while (x < idx && iter != NULL)
 {
 iter = iter->next;
@@ -42,19 +31,7 @@ return (NULL);
 }
 if (idx == 0)
 {
-temp->next = *h;
-(*h)->prev = temp;
-*h = temp;
-}
-else if (iter == NULL)
-{
-dlistint_t *last = *h;
-while (last->next != NULL)
-{
-last = last->next;
-}
-last->next = temp;
-temp->prev = last;
+return (add_dnodeint(h, n);
 }
 else
 {
@@ -63,5 +40,5 @@ temp->prev = iter->prev;
 iter->prev->next = temp;
 iter->prev = temp;
 }
-    return (temp);
+return (temp);
 }
